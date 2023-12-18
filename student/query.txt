@@ -1,0 +1,2 @@
+for a specific teachers
+SELECT * FROM students where st_id in(SELECT stat_id from attendance where course in (SELECT course from teachers where tc_id=12));
